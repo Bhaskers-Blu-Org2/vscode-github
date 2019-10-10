@@ -1,0 +1,18 @@
+{
+  "name": "vscode-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:microsoft/vscode-github.git",
+  "author": "Joao Moreno <joao.moreno@microsoft.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "typescript": "^3.6.4"
+  }
+}
